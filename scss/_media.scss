@@ -1,0 +1,51 @@
+@import 'config';
+
+article {
+  grid-area:1/1;
+
+  & > * {
+    grid-area:1/1;
+    opacity:0;
+    visibility:none;
+  }
+
+  & > .active {
+    opacity:1;
+    visibility:visible; 
+
+    figcaption {
+      animation:opacity-one .2s linear forwards;
+    }
+  }
+
+  img, video {
+    object-fit:cover;
+    display:block;
+    outline:none;
+  }
+
+  img {
+    width:100%;
+    height:100%;
+    filter:brightness(60%);
+  }
+
+  video { 
+    filter:brightness(70%);
+  }
+
+  figure, video {
+    height:100vh;
+    width:31rem;
+  }
+
+  figcaption {
+    position:relative;
+    z-index:2;
+    top:-6rem;
+    left:.25rem;
+    font-weight:800;
+    letter-spacing:.25rem;
+    font-size:3.7rem;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "strict": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "removeComments": true,
+    "noImplicitReturns": true,
+    "outDir": "dist",
+    "isolatedModules": true
+  } //,
+  //escolha o caminho e descomente a vírgula
+  // "include": ["src"],
+  // "exclude": ["node_modules"]
+}

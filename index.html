@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/favicon.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Stories Sabaton</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      * { 
+        font-family:'Stick No Bills', sans-serif; 
+      }
+
+      body.paused {
+        user-select:none;
+        -webkit-user-select:none;
+        -webkit-touch-callout:none;
+        text-size-adjust:none;
+        -webkit-text-size-adjust:none;
+        touch-action:manipulation;
+      }
+    </style>
+
+    <link rel='stylesheet' href="./css/app.min.css">
+  </head>
+
+  <body>
+    <main> <section id='slide'>
+        <article id='slide-elements'>
+
+        <figure> <img src='./assets/0-best-sabaton.jpg'/>
+          <figcaption>Best Of Sabaton</figcaption>
+        </figure>
+
+        <figure> <img src='./assets/1-primo-victoria.jpg'/>
+          <figcaption>Primo Victoria</figcaption>
+        </figure>
+
+        <figure> <img src='./assets/2-exile.jpg'/>
+          <figcaption>Aces in Exile</figcaption>
+        </figure>
+
+        <figure> <img src='./assets/3-race.jpg'/>
+          <figcaption>Race To The Sea</figcaption>
+        </figure>
+
+        <figure> <img src='./assets/4-wolfpack.jpg'/>
+          <figcaption>Wolfpack</figcaption>
+        </figure>
+
+        <figure> <img src='./assets/5-truce.jpg'/>
+          <figcaption>Christmas Truce</figcaption>
+        </figure>
+
+          <video playsInline src='./assets/sabaton.mp4'></video>
+        </article>
+
+        <div id='slide-controls'>
+          <header>
+            <div id='slide-thumb'></div>
+
+            <div>
+              <a href="https://github.com/psilva999" target='_blank'>
+                <h1>Ps</h1> </a>
+
+              <p class='play-pause pause' id='play-pause'></p>
+            </div>
+          </header>
+
+          <a className='more' id='more' href='https://youtu.be/JseV6WH3ufk' target='_blank'>more</a>
+        </div>
+
+      </section>
+    </main>
+    
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>

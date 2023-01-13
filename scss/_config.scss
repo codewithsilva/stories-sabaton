@@ -1,0 +1,38 @@
+$black:#1A1B1C;
+$white:#E9E8E8;
+
+$shadow:rgba(233, 232, 232, .2);
+
+:root {
+  --color:rgba(233, 232, 232, .2);
+}
+
+@keyframes code {
+  0% {
+    opacity:.1;
+  }
+
+  50% {
+    opacity:1;
+  }
+
+  100% {
+    opacity:.1;
+  }
+}
+
+@keyframes thumb {
+  to {
+    transform:initial;
+  }
+}
+
+@keyframes opacity-one {
+  from {
+    opacity:0;
+  }
+
+  to {
+    opacity:1;
+  }
+}
