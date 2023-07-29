@@ -73,10 +73,23 @@ main {
   }
 }
 
-@media (max-height:600px) {
+@media (max-height:700px) {
+  article figcaption {
+    font-size:3rem;
+    top:-10rem;
+    letter-spacing:.15rem;
+  }
+}
+
+@media (max-height:500px) {
+  article figcaption {
+    top:-6rem;
+  }
+}
+
+@media (max-height:300px) {
   article figcaption {
     font-size:2rem;
-    top:-5rem;
-    letter-spacing:.15rem;
+    top:-4rem;
   }
 }
